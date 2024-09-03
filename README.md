@@ -38,4 +38,32 @@ This project is a machine learning-based system designed to predict student drop
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/student-dropout-prediction.git
+   git clone https://github.com/MazenElfayoumi/student-dropout-prediction.git
+
+2. **Install the required libraries**:
+
+    ```bash
+    pip install pandas seaborn matplotlib scikit-learn plotly xgboost tkinter
+    ```
+
+## Usage
+
+### Running the Prediction Script
+
+1. **Prepare the Dataset**: Ensure the dataset (`datasetupdated.csv`) is in the correct directory.
+
+2. **Run the Script**:
+
+    ```bash
+    python student_dropout_prediction.py
+    ```
+
+3. **Input Student Data**: Use the GUI to input features such as age, tuition fees, and curricular units.
+
+4. **View Predictions**: The system will output whether the student is likely to graduate or drop out.
+
+### Example GUI Usage
+
+- **Input Fields**: Fill in the student details such as `Displaced`, `Age`, `Tuition_fees_up_to_date`, etc.
+
+- **Click "Check"**: The GUI will predict the student's status (`true` for graduation, `false` for dropout) and display the result.
