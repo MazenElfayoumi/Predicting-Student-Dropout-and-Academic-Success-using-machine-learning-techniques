@@ -25,7 +25,7 @@ This project is a machine learning-based system designed to predict student drop
 
 ### GUI:
 - **Tkinter-based GUI**: A simple interface that allows users to input student data and predict whether the student will graduate or drop out.
-![29](https://github.com/user-attachments/assets/0484b2f0-6721-4ec2-8465-d4407858e454)
+                     ![29](https://github.com/user-attachments/assets/0484b2f0-6721-4ec2-8465-d4407858e454)
 
 ## How It Works
 
